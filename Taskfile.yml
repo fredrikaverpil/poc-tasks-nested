@@ -4,6 +4,7 @@ version: "3"
 
 tasks:
   poc-app-nested:
+    desc: A POC app written in Go, but defined in nested Taskfile.
     cmds:
       - go run github.com/fredrikaverpil/poc-tasks/cmd/app@latest
     silent: false
