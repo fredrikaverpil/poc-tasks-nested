@@ -1,0 +1,9 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  poc-app-nested:
+    cmds:
+      - go run github.com/fredrikaverpil/poc-tasks/cmd/app@latest
+    silent: false
